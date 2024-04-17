@@ -37,7 +37,7 @@ resource "aws_security_group" "nginx" {
 }
 
 resource "aws_instance" "nginx" {
-  ami                         = "ami-0dba2cb6798deb6d8"
+  ami                         = "ami- 0000"
   subnet_id                   = "subnet-060a1ae52cf0a73d6"
   instance_type               = "t2.micro"
   associate_public_ip_address = true
